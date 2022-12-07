@@ -27,7 +27,7 @@ fn generate_iy() {
 }
 
 fn generate_pv() {
-    // Generate random number with "%"
+    // Generate random number with "$"
     let pv = rand::thread_rng().gen_range(1.0..10000.0);
     
     // Rounds float to two decimal places
@@ -35,7 +35,7 @@ fn generate_pv() {
 }
 
 fn generate_fv() {
-    // Generate random number with "%"
+    // Generate random number with "$"
     let fv = rand::thread_rng().gen_range(1.0..10000.0);
     
     // Rounds float to two decimal places
@@ -43,7 +43,7 @@ fn generate_fv() {
 }
 
 fn generate_pmt() {
-    // Generate random number with "%"
+    // Generate random number with "$"
     let pmt = rand::thread_rng().gen_range(1.0..1000.0);
     
     // Rounds float to two decimal places
@@ -51,7 +51,7 @@ fn generate_pmt() {
 }
 
 fn generate_years() {
-    // Generate random number with "%"
+    // Generate random number with "_years"
     let years = rand::thread_rng().gen_range(1..36);
     
     // Rounds float to two decimal places
